@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class AppBuilderAPI | Appshed API</title>
+
+	<script type="text/javascript" src="resources/combined.js?2230489249"></script>
+	<script type="text/javascript" src="elementlist.js?1921766278"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li class="active"><a href="package-AppBuilderAPI.html">AppBuilderAPI<span></span></a>
+						<ul>
+				<li><a href="package-AppBuilderAPI.App.html">App</a>
+						</li>
+				<li class="active"><a href="package-AppBuilderAPI.Core.html">Core</a>
+						</li>
+				<li><a href="package-AppBuilderAPI.Items.html">Items</a>
+						</li>
+				<li><a href="package-AppBuilderAPI.Screens.html">Screens</a>
+						</li>
+							</ul></li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li class="active"><a href="class-AppBuilderAPI.html">AppBuilderAPI</a></li>
+				<li><a href="class-AppBuilderAPICSSDocument.html">AppBuilderAPICSSDocument</a></li>
+				<li><a href="class-AppBuilderAPIDOMDocument.html">AppBuilderAPIDOMDocument</a></li>
+				<li><a href="class-AppBuilderAPIElement.html">AppBuilderAPIElement</a></li>
+				<li><a href="class-AppBuilderAPIStyle.html">AppBuilderAPIStyle</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-AppBuilderAPI.Core.html" title="Summary of AppBuilderAPI\Core"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class AppBuilderAPI</h1>
+
+
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-AppBuilderAPI.html">AppBuilderAPI</a>\<a href="package-AppBuilderAPI.Core.html">Core</a><br />
+
+				<b>Copyright:</b>
+				Copyright (c) 2011, ekreative<br />
+				<b>Author:</b>
+				Fred Cox &lt;<a
+href="mailto:fred&#64;ekreative.com">fred&#64;<!---->ekreative.com</a>&gt;<br />
+				<b>Version:</b>
+				1.0<br />
+		<b>Located at</b> <a href="source-class-AppBuilderAPI.html#2-197" title="Go to source code">core/AppBuilderAPI.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="getScreenResponse" id="_getScreenResponse">
+
+		<td class="attributes"><code>
+			 public static
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getScreenResponse">#</a>
+		<code><a href="source-class-AppBuilderAPI.html#11-29" title="Go to source code">getScreenResponse</a>( <span><code><a href="class-AppBuilderAPIElement.html">AppBuilderAPIElement</a></code> <var>$screen</var></span>, <span>boolean <var>$header</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Return a string to response with, either xml, json or html You should always
+use this function to reply to the app server</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Return a string to response with, either xml, json or html You should always
+use this function to reply to the app server</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$screen</var></dt>
+					<dd><code><code><a href="class-AppBuilderAPIElement.html">AppBuilderAPIElement</a></code></code><br>$screen the screen or app to render</dd>
+					<dt><var>$header</var></dt>
+					<dd><code>boolean</code><br>$header whether to set the appropriate response header</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getElementAsHTMLObj" id="_getElementAsHTMLObj">
+
+		<td class="attributes"><code>
+			 public static
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getElementAsHTMLObj">#</a>
+		<code><a href="source-class-AppBuilderAPI.html#33-67" title="Go to source code">getElementAsHTMLObj</a>( <span><code><a href="class-AppBuilderAPIElement.html">AppBuilderAPIElement</a></code> <var>$screen</var></span>, <span>mixed <var>$settings</var> = <span class="php-keyword1">null</span></span>, <span>mixed <var>$objs</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the html object for a screen</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the html object for a screen</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$screen</var></dt>
+					<dd><code><code><a href="class-AppBuilderAPIElement.html">AppBuilderAPIElement</a></code></code><br>$screen</dd>
+					<dt><var>$settings</var></dt>
+					<dd></dd>
+					<dt><var>$objs</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getElementAsHTMLJSONP" id="_getElementAsHTMLJSONP">
+
+		<td class="attributes"><code>
+			 public static
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getElementAsHTMLJSONP">#</a>
+		<code><a href="source-class-AppBuilderAPI.html#69-78" title="Go to source code">getElementAsHTMLJSONP</a>( <span><code><a href="class-AppBuilderAPIElement.html">AppBuilderAPIElement</a></code> <var>$screen</var></span>, <span>mixed <var>$header</var> = <span class="php-keyword1">false</span></span>, <span>mixed <var>$callback</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the html object for a screen</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the html object for a screen</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$screen</var></dt>
+					<dd><code><code><a href="class-AppBuilderAPIElement.html">AppBuilderAPIElement</a></code></code><br>$screen</dd>
+					<dt><var>$header</var></dt>
+					<dd></dd>
+					<dt><var>$callback</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getScreenAsObj" id="_getScreenAsObj">
+
+		<td class="attributes"><code>
+			 public static
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getScreenAsObj">#</a>
+		<code><a href="source-class-AppBuilderAPI.html#82-107" title="Go to source code">getScreenAsObj</a>( <span><code><a href="class-AppBuilderAPIElement.html">AppBuilderAPIElement</a></code> <var>$screen</var></span>, <span>mixed <var>$refreshAfter</var> = <span class="php-num">0</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the json object for a screen</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the json object for a screen</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$screen</var></dt>
+					<dd><code><code><a href="class-AppBuilderAPIElement.html">AppBuilderAPIElement</a></code></code><br>$screen</dd>
+					<dt><var>$refreshAfter</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getScreenAsJSONP" id="_getScreenAsJSONP">
+
+		<td class="attributes"><code>
+			 public static
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getScreenAsJSONP">#</a>
+		<code><a href="source-class-AppBuilderAPI.html#109-118" title="Go to source code">getScreenAsJSONP</a>( <span><code><a href="class-AppBuilderAPIElement.html">AppBuilderAPIElement</a></code> <var>$screen</var></span>, <span>mixed <var>$header</var> = <span class="php-keyword1">false</span></span>, <span>mixed <var>$callback</var> = <span class="php-keyword1">null</span></span>, <span>mixed <var>$refreshAfter</var> = <span class="php-num">0</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the json object for a screen</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the json object for a screen</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$screen</var></dt>
+					<dd><code><code><a href="class-AppBuilderAPIElement.html">AppBuilderAPIElement</a></code></code><br>$screen</dd>
+					<dt><var>$header</var></dt>
+					<dd></dd>
+					<dt><var>$callback</var></dt>
+					<dd></dd>
+					<dt><var>$refreshAfter</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="saveUpload" id="_saveUpload">
+
+		<td class="attributes"><code>
+			 public static
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_saveUpload">#</a>
+		<code><a href="source-class-AppBuilderAPI.html#148-165" title="Go to source code">saveUpload</a>( <span>type <var>$filename</var></span>, <span>type <var>$variableName</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Helper function to receive files from app. Deals with xml sending the data in
+POST</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Helper function to receive files from app. Deals with xml sending the data in
+POST</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$filename</var></dt>
+					<dd><code>type</code><br>$filename</dd>
+					<dt><var>$variableName</var></dt>
+					<dd><code>type</code><br>$variableName</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="autoCompleteReturn" id="_autoCompleteReturn">
+
+		<td class="attributes"><code>
+			 public static
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_autoCompleteReturn">#</a>
+		<code><a href="source-class-AppBuilderAPI.html#167-169" title="Go to source code">autoCompleteReturn</a>( <span>mixed <var>$values</var></span>, <span>mixed <var>$header</var> = <span class="php-keyword1">true</span></span>, <span>mixed <var>$callback</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		Appshed API API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>
