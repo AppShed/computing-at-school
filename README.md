@@ -23,3 +23,7 @@ You need to make some changes to the ids for screens and buttons.
 Check out the app on [AppShed](http://appshed.com/appbuilder/cas).
 
 Also on the [Google Play Store](https://play.google.com/store/apps/details?id=com.appshed.cas)
+
+## AppShed Documentation
+
+For more info about what you can do with extensions see [AppShed.net](www.appshed.net).
