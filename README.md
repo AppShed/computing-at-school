@@ -26,4 +26,4 @@ Also on the [Google Play Store](https://play.google.com/store/apps/details?id=co
 
 ## AppShed Documentation
 
-For more info about what you can do with extensions see [AppShed.net](www.appshed.net).
+For more info about what you can do with extensions see [AppShed.net](http://www.appshed.net).
